@@ -11,6 +11,10 @@ public enum UserRole {
     PROFESSOR("ROLE_PROFESSOR", "교수"),
     ADMIN("ROLE_ADMIN", "관리자");
 
+    /*
+    test test
+     */
+
     private final String key;
     private final String title;
 }
