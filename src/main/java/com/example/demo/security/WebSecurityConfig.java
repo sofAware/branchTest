@@ -40,7 +40,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     }
     @Override
     public void configure(WebSecurity web) {
-        // /css/**, /images/**, /js/** 등 정적 리소스는 보안필터를 거치지 않게 한다.
+        // /css/**, /images/**, /js/** 등 정적 리소스는 보안필터를 거치지 않게 한다
+        /*
+        hihi test
+        */
         web.ignoring().requestMatchers(PathRequest.toStaticResources().atCommonLocations());
     }
 
