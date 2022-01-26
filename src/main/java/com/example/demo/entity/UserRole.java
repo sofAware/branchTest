@@ -7,9 +7,11 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public enum UserRole {
 
-    STUDENT("ROLE_STUDENT", "학생"),
-    PROFESSOR("ROLE_PROFESSOR", "교수"),
-    ADMIN("ROLE_ADMIN", "관리자");
+    thisisyghSTUDENT("ROLE_STUDENT", "학생"),
+    thisisyghPROFESSOR("ROLE_PROFESSOR", "교수"),
+    thisisyghADMIN("ROLE_ADMIN", "관리자");
+
+    // ygh remark
 
     private final String key;
     private final String title;
